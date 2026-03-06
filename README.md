@@ -28,7 +28,7 @@ These scripts reproduce the machine learning workflow used in the study, includi
 
 - example_dataset.csv: Example dataset demonstrating the structure of the simulation results used to train the machine learning models.
 - train_RF_classification.py: Script used to train Random Forest (classification) models and evaluate predictive performance.
-- scripts/train_ANN_regression.py: Script used to train Artificial Neural Network (ANN) (regression) models for predicting CO₂ storage and leakage outcomes.
+- train_ANN_regression.py: Script used to train Artificial Neural Network (ANN) (regression) models for predicting CO₂ storage and leakage outcomes.
 - feature_importance_RF.py: Computes global feature importance to identify key parameters controlling leakage behavior.
 - climate_impact_metrics.py: Computes climate impact indicators based on Life Cycle Assessment (LCA), including CO₂-equivalent leakage impact, avoided emissions from stored CO₂, and net climate benefit.
 - requirements.txt: List of Python packages required to run the workflow.
