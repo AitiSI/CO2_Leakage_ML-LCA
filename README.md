@@ -1,4 +1,4 @@
-![image]()
+![image](https://github.com/AitiSI/CO2_Leakage_ML-LCA/blob/main/CURE_logo_2.png)
 
 # Machine Learning and Climate Impact Assessment for CO₂ Leakage in Geological Carbon Storage
 ---
@@ -68,4 +68,4 @@ Citation information will be added once the article is published.
 ## Questions or Feedback
 
 If you have any questions regarding this repository or the workflow, please contact:
-Please reach out to eunssiri@inha.edu or honggeun.jo@inha.ac.kr.
+Please reach out to a.sanchezismodes23@inha.edu or honggeun.jo@inha.ac.kr.
