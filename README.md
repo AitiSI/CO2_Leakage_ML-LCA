@@ -34,8 +34,8 @@ These scripts reproduce the machine learning workflow used in the study, includi
 ## Repository Contents
 
 - data_example/example_dataset.csv: Example dataset demonstrating the structure of the simulation results used to train the machine learning models.
-- scripts/train_ANN.py: Script used to train Artificial Neural Network (ANN) models for predicting CO₂ storage and leakage outcomes.
-- scripts/train_RF.py: Script used to train Random Forest models and evaluate predictive performance.
+- scripts/train_RF.py: Script used to train Random Forest (classification) models and evaluate predictive performance.
+- scripts/train_ANN.py: Script used to train Artificial Neural Network (ANN) (regression) models for predicting CO₂ storage and leakage outcomes.
 - scripts/feature_importance.py: Computes global feature importance to identify key parameters controlling leakage behavior.
 - scripts/plots.py: Generates visualization figures such as parity plots and model evaluation plots.
 - figures/ :Example output figures produced by the analysis scripts.
