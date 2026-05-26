@@ -50,13 +50,13 @@ pip install -r requirements.txt
 ## Repository Contents
 
 - example_dataset.csv: Example dataset demonstrating the structure of the processed simulation results used for model training and analysis.
-- train_RF_classification.py: Trains the Random Forest classifier for non-secure leakage-risk regimes and evaluates classification performance.
-- train_ANN_regression.py: Trains ANN regression models for predicting stored CO₂ mass and leaked CO₂ mass.
-- feature_importance_RF.py: Computes global RF feature importance and class-specific permutation importance to identify key controls on leakage-risk classification.
-- ann_sensitivity_analysis.py: Performs Morris-like normalized one-at-a-time sensitivity screening for ANN-predicted stored and leaked CO₂ mass.
-- partial_dependence_analysis.py: Generates PDP and LHS-based response diagnostics for interpreting ANN surrogate behavior.
-- gwp100_leakage_metrics.py: Computes GWP100-based CO₂-equivalent leakage penalties and retained CO₂-equivalent storage metrics.
-- design_maps.py: Generates decision-oriented maps for stored CO₂ mass and leaked CO₂ mass.
+- train_RF_classification.ipynb: Trains the Random Forest classifier for non-secure leakage-risk regimes and evaluates classification performance.
+- train_ANN_regression.ipynb: Trains ANN regression models for predicting stored CO₂ mass and leaked CO₂ mass.
+- feature_importance_RF.ipynb: Computes global RF feature importance and class-specific permutation importance to identify key controls on leakage-risk classification.
+- ann_sensitivity_analysis.ipynb: Performs Morris-like normalized one-at-a-time sensitivity screening for ANN-predicted stored and leaked CO₂ mass.
+- partial_dependence_analysis.ipynb: Generates PDP and LHS-based response diagnostics for interpreting ANN surrogate behavior.
+- gwp100_leakage_metrics.ipynb: Computes GWP100-based CO₂-equivalent leakage penalties and retained CO₂-equivalent storage metrics.
+- design_maps.ipynb: Generates decision-oriented maps for stored CO₂ mass and leaked CO₂ mass.
 - requirements.txt: List of Python packages required to run the workflow.
 - LICENSE: MIT License allowing reuse and adaptation of the code.
 
